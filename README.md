@@ -6,6 +6,8 @@
 
 ![](https://picreso.oss-cn-beijing.aliyuncs.com/v2-aefd22aa3df9c7ab0cff00c30d5d1849_720w.jpg)
 
+</div>
+
 ## 需要的条件👀：
 
 * Python 3.x
@@ -14,8 +16,6 @@
 	* Keras
 	* Tensorflow
 	* h5py
-
-</div>
 
 ## 训练
 
