@@ -2,7 +2,9 @@
 
 该项目使您可以使用单个乐器的Midi音乐文件训练神经网络来生成🎹
 
-![](https://picreso.oss-cn-beijing.aliyuncs.com/v2-005cc0232839bc566b01d2c8a5f223ca_720w.jpg)
+<div align="center">
+
+![](https://picreso.oss-cn-beijing.aliyuncs.com/v2-aefd22aa3df9c7ab0cff00c30d5d1849_720w.jpg)
 
 ## 需要的条件👀：
 
@@ -12,6 +14,8 @@
 	* Keras
 	* Tensorflow
 	* h5py
+
+</div>
 
 ## 训练
 
