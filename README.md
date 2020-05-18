@@ -1,38 +1,39 @@
-# Classical Piano Composer
+# LSTM-Music🎵
 
-This project allows you to train a neural network to generate midi music files that make use of a single instrument
+该项目使您可以使用单个乐器的Midi音乐文件训练神经网络来生成🎹
 
-## Requirements
+![](https://picreso.oss-cn-beijing.aliyuncs.com/v2-005cc0232839bc566b01d2c8a5f223ca_720w.jpg)
+
+## 需要的条件👀：
 
 * Python 3.x
-* Installing the following packages using pip:
+* 相关包：
 	* Music21
 	* Keras
 	* Tensorflow
 	* h5py
 
-## Training
+## 训练
 
-To train the network you run **lstm.py**.
-
-E.g.
+只需要运行 `lstm-music.py`就行了
 
 ```
 python lstm-music.py
 ```
 
-The network will use every midi file in ./midi_songs to train the network. The midi files should only contain a single instrument to get the most out of the training.
+网络将使用./midi_songs中的每个midi文件来训练网络。
 
-**NOTE**: You can stop the process at any point in time and the weights from the latest completed epoch will be available for text generation purposes.
+ midi文件应仅包含钢琴乐
 
-## Generating music
+> 您可以在任何时间点停止该过程，会依据以训练内容生成对应模型
 
-Once you have trained the network you can generate text using **predict.py**
+## 生成
 
-E.g.
+训练之后就可以使用 predicter.py 生成音乐了
 
 ```
 python predicter.py
 ```
 
-You can run the prediction file right away using the **weights.hdf5** file
+您可以使用weights.hdf5文件立即运行预测文件
+
