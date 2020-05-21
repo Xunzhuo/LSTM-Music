@@ -223,7 +223,7 @@ network_output = np_utils.to_categorical(network_output)
 
 在这段示例代码汇总，我们把每一个序列的长度都设为 100 个音符或者和弦。这意味着要想去在序列中去预测下一个音符，网络已经有 100 个音符来帮助预测了。我极其推荐使用不同长度的序列去训练网络然后观察这些不同长度的序列对由网络产生的音乐的影响。
 
-为网络准备数据的最后一步是将输入归一化处理并且 [one-hot 编码输出](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/)。
+为网络准备数据的最后一步是将输入归一化处理并且 one-hot 编码输出。
 
 ### 模型
 
