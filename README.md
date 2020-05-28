@@ -5,7 +5,7 @@
 <div align="center">
 
 
-![](https://picreso.oss-cn-beijing.aliyuncs.com/v2-aefd22aa3df9c7ab0cff00c30d5d1849_720w.jpg)
+<img src="https://picreso.oss-cn-beijing.aliyuncs.com/v2-aefd22aa3df9c7ab0cff00c30d5d1849_720w.jpg" width="100%"></img>
 
 </div>
 
